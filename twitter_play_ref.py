@@ -1,7 +1,7 @@
 from TwitterSearch import *
 
 try:
-    tso = TwitterSearchOrder()
+    tso = TwitterSearchOrder()  #remote
     tso.set_keywords(['Guttenberg', 'Doktorarbeit'])
     tso.set_language('de')
     tso.set_include_entities(False)
